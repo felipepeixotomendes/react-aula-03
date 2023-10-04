@@ -5,9 +5,12 @@ import Sakura from '../../images/sakuraPerfil.webp';
 import Kakashi from '../../images/kakashiPerfil.webp';
 import Madara from '../../images/madaraPerfil.webp';
 import obito from '../../images/obito.webp';
-import Pao from '../../images/Pao.jpg'
+import kizame from '../../images/kisame.webp';
+import Pao from '../../images/Pao.jpg';
+import itachi from '../../images/itachi.jpg'
 import './main.css';
 import Tieim from '../Tieim/Tieim';
+import Equipe from '../Equipe/Equipe';
 
 function Main() {
     let caracKakashi = "Ele é conhecido por seu domínio em diversas técnicas ninja, sendo especialmente famoso por seu uso do Sharingan (um poderoso jutsu ocular) e por sua habilidade de copiar técnicas de outros ninjas.";
@@ -20,18 +23,44 @@ function Main() {
 
     return(
         <main>
+            <>
             <div className='equipe7'>
-            <ExibePerfil nome="Kakashi" caracteristica={caracKakashi} img={Kakashi}/>
-            <ExibePerfil nome="Naruto" caracteristica={caracNaruto} img={NarutoPerfil}/>
-            <ExibePerfil nome="Sasuke" caracteristica={caracSasuke} img={SasukePerfil}/>
-            <ExibePerfil nome="Sakura" caracteristica={caracSakura} img={Sakura}/>
+            
+            <Equipe team={7}
+                n1= "Maria" 
+                img1={obito} 
+                crt1={"lalala"} 
+                n2= "Joseli"
+                img2={Madara} 
+                crt2={"alalalala"} 
+                n3= "Clovis" 
+                img3={kizame}
+                crt3={"ooooooo"} 
+                n4= "Natanael" 
+                img4={itachi}
+                crt4={"uuuuuuuuuu"} />
+            <Equipe team={8} 
+            n1= "Sara"
+            img1={Sakura} 
+            crt1={'hhhhhhhhhh'} 
+            n2= "Mateus" 
+            img2={SasukePerfil}
+            crt2={"pppppp"}
+             n3= "Joriscleuson" 
+             img3={Kakashi}
+             crt3={"aaaaaaaaaa"} 
+             n4= "Sanafoneminerai"
+             img4={NarutoPerfil} 
+             crt4={"aahauhauhauahu"}/>
             </div>
-            <div className='equipe8'>
+
+
+            {/* <div className='equipe8'>
                 <ExibePerfil nome="Madara" caracteristica={caracMadara} img={Madara}/>
                 <ExibePerfil nome="obito" caracteristica={caracMadara} img={obito}/>
             </div>
-            <>
-            <Tieim nome="PaoDeQueijo" img={Pao}/>
+            
+            <Tieim nome="PaoDeQueijo" img={Pao}/> */}
             </>
         </main>
 
