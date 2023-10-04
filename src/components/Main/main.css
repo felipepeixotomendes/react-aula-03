@@ -1,0 +1,20 @@
+.equipe7{
+    display: flex;
+    justify-content: space-around;
+}
+
+main div .equipe7{
+    width: 20%;
+}
+
+.equipe8{
+    display: flex;
+    justify-content: space-around;
+}
+
+main div .equipe8{
+    text-align: justify;
+    width: 20%;
+    
+}
+
