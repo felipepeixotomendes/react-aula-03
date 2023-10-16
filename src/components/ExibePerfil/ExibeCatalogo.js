@@ -1,10 +1,10 @@
 import './ExibeCatalogo.css';
 
-function ExibeCatalogo({nome,img,ano,}){
+function ExibeCatalogo({nome,img,ano,h}){
     return(
         <div>
-            <img className='img-exibe-catalogo' src={img} alt={nome} />
-            <h1>{nome}</h1>
+            { <img className='img-exibe-catalogo' src={img} alt={nome} /*style={{height:h}}*//> }
+            <h2>{nome}</h2>
             <p>{ano}</p>
         </div>
     )

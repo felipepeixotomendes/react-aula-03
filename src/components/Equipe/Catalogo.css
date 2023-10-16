@@ -1,16 +1,32 @@
 .catalogo{
     display: flex;
     justify-content: space-around;
+    height: 600px;
 }
 
-.div-catalogo,h1{
-    color: white;
+h1{
+    border-left: solid 10px red;
+    background-color: rgb(255, 255, 255);
 }
 main{
     background-color: black;
 }
 
 .img-exibe-catalogo{
-    height: 400px;
+    height: 470px;
     width: 350px;
+    border-radius: 5px;
 }
+
+.img-exibe-catalogo:hover{
+    height: 480px;
+    opacity: 0.5;
+    transition: 0.3s;
+    width: 360px;
+    
+}
+
+h2,p{
+    color: white;
+}
+

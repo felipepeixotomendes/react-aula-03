@@ -19,12 +19,13 @@ function Main() {
     ];
 
     const listS =[
+
       {nome: "The witcher" , imagem: witcher , ano:"2005"},
       {nome: "Game of thrones" , imagem: got , ano:"2008"},
       {nome: "Two and a half men" , imagem: doisHomensEmeio , ano:"2005"},
       {nome: "Loki" , imagem: loki , ano:"2022"},
       
-      // {nome: "The Flash" , imagem: flash , ano:"2005"},
+      
     ];
 
 

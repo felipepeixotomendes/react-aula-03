@@ -10,7 +10,7 @@ function Catalogo({lista,titulo}) {
         <div className="catalogo">
         {lista.map((cat) =>
         <div className="div-catalogo">
-            <ExibeCatalogo nome={cat.nome} img={cat.imagem} ano={cat.ano}/>
+            <ExibeCatalogo nome={cat.nome} img={cat.imagem} ano={cat.ano} h={cat.h}/>
         </div>
 
         )}
